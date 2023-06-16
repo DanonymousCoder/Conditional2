@@ -39,4 +39,7 @@ if (company == 'Netscape') {
   alert('Wrong.');
 }
 
-let que = "What's the “official” name of JavaScript?"
+let que = prompt ("What's the “official” name of JavaScript?");
+if (que == 'EcmaScript' ) {
+    alert(right);
+}
