@@ -46,3 +46,11 @@ if (que == 'EcmaScript' ) {
 else {
     alert( You don't know? “ECMAScript”!);
 }
+
+let value = prompt (Input a number);
+if (value > 0) {
+    alert(1);
+}
+elseif (value < 0) {
+    alert(-1);
+} 
