@@ -38,3 +38,5 @@ if (company == 'Netscape') {
 } else {
   alert('Wrong.');
 }
+
+let que = "What's the “official” name of JavaScript?"
