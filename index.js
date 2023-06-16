@@ -10,4 +10,13 @@ if (year == 2015) {
     alert( 'Too late' );
   } else {
     alert( 'Exactly!' );
+  }let accessAllowed;
+  let age = prompt('How old are you?', '');
+  
+  if (age > 18) {
+    accessAllowed = true;
+  } else {
+    accessAllowed = false;
   }
+  
+  alert(accessAllowed);
