@@ -5,4 +5,7 @@ if (year == 2015) {
     alert( "That's correct!" );
     alert( "You're so smart!" );
   }
+  else {
+    alert( 'How can you be so wrong?' ); // any value except 2015
+  }
   
