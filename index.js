@@ -44,7 +44,7 @@ if (que == 'EcmaScript' ) {
     alert(right);
 }
 else {
-    alert( You don't know? “ECMAScript”!);
+    alert(You don't know “ECMAScript”!);
 }
 
 let value = prompt (Input a number);
@@ -56,4 +56,15 @@ elseif (value < 0) {
 } 
 else {
   alert(0);
+}
+let message;
+
+if (login == 'Employee') {
+  message = 'Hello';
+} else if (login == 'Director') {
+  message = 'Greetings';
+} else if (login == '') {
+  message = 'No login';
+} else {
+  message = '';
 }
