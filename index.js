@@ -31,3 +31,10 @@ if (year == 2015) {
   } else {
     message = 'What an unusual age!';
   }
+  let company = prompt('Which company created JavaScript?', '');
+
+if (company == 'Netscape') {
+  alert('Right!');
+} else {
+  alert('Wrong.');
+}
