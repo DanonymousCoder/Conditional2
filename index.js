@@ -54,3 +54,6 @@ if (value > 0) {
 elseif (value < 0) {
     alert(-1);
 } 
+else {
+  alert(0);
+}
