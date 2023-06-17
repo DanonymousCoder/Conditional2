@@ -114,3 +114,14 @@ switch (arg) {
   default:
     alert( 'An unknown value' );
 }
+
+let browser = prompt ("Which browser do you use");
+if (browser == 'Edge' ) {
+  alert("You've got the edge");
+}
+else if (browser == 'Chrome', 'Safari', 'Opera', 'Firefox') {
+  alert("We support this browsers also");
+}
+else {
+  alert("We hope this page looks ok");
+}
