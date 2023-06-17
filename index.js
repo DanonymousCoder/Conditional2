@@ -136,5 +136,4 @@ switch (a) {
     break;
   case 'a == 2 || a == 3':
     alert('2,3');
-    break;
 }
