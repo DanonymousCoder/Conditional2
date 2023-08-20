@@ -1,4 +1,4 @@
-let select = document.querySelector("Select");
+let select = document.querySelector("select");
 let para = document.querySelector("p");
 
 select.addEventListener("change", setWeather);
