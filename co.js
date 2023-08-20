@@ -1,1 +1,1 @@
-let select = document.querySelector('Select')
+let select = document.querySelector("Select");
