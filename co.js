@@ -10,6 +10,6 @@ function setWeather() {
     para.textContent = "It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.";
   }
   if (choice === "rainy") {
-    para.textContent = 
+    para.textContent =  "Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
   }
 }
