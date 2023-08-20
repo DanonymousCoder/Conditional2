@@ -18,4 +18,7 @@ function setWeather() {
   else if (option === "overcast") {
     para.textContent =  "It isn't raining, but the sky is grey and gloomy; it could turn any minute, so take a rain coat just in case.";
   }
+  else {
+    para.textContent = "Select a value";
+  }
 }
