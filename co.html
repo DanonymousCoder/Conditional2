@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test</title>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Simple else if example</title>
+  </head>
+  <body>
+    <label for="weather">Select the weather type today: </label>
+    <select id="weather">
+      <option value="">--Make a choice--</option>
+      <option value="sunny">Sunny</option>
+      <option value="rainy">Rainy</option>
+      <option value="snowing">Snowing</option>
+      <option value="overcast">Overcast</option>
+    </select>
+
+    <p></p>
+
     <script>
-  const select = document.querySelector('select');
+      const select = document.querySelector('select');
       const para = document.querySelector('p');
 
       select.onchange = setWeather;
@@ -26,16 +39,5 @@
         }
       }
     </script>
-</head>
-<body>
-    <label for="weather">Select the Weather type today</label>
-    <select name="weather" id="weather">
-        <option value="">-- Make a choice --</option>
-        <option value="sunny">Sunny</option>
-        <option value="rainy">Rainy</option>
-        <option value="snowing">Snowing</option>
-        <option value="overcast">Overcast</option>
-    </select>
-    <p></p>
-</body>
+  </body>
 </html>
