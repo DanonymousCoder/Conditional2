@@ -8,7 +8,7 @@
         const select = document.querySelector("select");
 const para = document.querySelector("p");
 
-select.addEventListener("change", setWeather);
+select.onChange = setWeather;
 
 function setWeather() {
   const choice = select.value;
