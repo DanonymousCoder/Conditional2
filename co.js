@@ -12,5 +12,8 @@ function setWeather() {
   else if (choice === "rainy") {
     para.textContent =  "Rain is falling outside; take a rain coat and an umbrella, and don't stay out for too long.";
   }
+  else if (choice === "snowing") {
+    para.textContent =  "The snow is coming down — it is freezing! Best to stay in with a cup of hot chocolate, or go build a snowman.";
+  }
   
 }
