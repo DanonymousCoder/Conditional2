@@ -3,3 +3,6 @@ let para = document.querySelector("p");
 
 select.addEventListener("change", setWeather);
 
+function setWeather() {
+ 
+}
