@@ -4,7 +4,7 @@ let para = document.querySelector("p");
 select.addEventListener("change", setWeather);
 
 function setWeather() {
-  const option = select.value;
+  const choice = select.value;
   
   if (option === "sunny") {
     para.textContent = "It is nice and sunny outside today. Wear shorts! Go to the beach, or the park, and get an ice cream.";
