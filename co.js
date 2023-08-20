@@ -6,4 +6,5 @@ select.addEventListener("change", setWeather);
 function setWeather() {
   const option = select.value;
   
+  if (choice === "")
 }
